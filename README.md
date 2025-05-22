@@ -1,6 +1,6 @@
 # 🧑‍💻 Full Stack JavaScript Developer Training Plan
 
-A complete roadmap to train a college pass-out student from beginner to full-stack JavaScript developer in 4–6 months.
+A complete roadmap to train a college pass-out student from beginner to full-stack JavaScript developer in 6-8 months.
 
 ---
 
@@ -110,6 +110,19 @@ A complete roadmap to train a college pass-out student from beginner to full-sta
   - Design to Code workflows
   - Accessibility basics
 
+- **Micro Frontends (MFE)**
+  - Concept of Micro Frontend Architecture
+  - Module Federation with Webpack
+  - Sharing components across apps
+  - Independent deployment of frontend apps
+
+- **Microservices Architecture**
+  - Principles and advantages
+  - Designing services with APIs
+  - Communication (REST, Message Queues)
+  - Service discovery and API Gateway
+  - Logging, Monitoring, Rate Limiting
+
 ---
 
 ### ✅ Final Phase: Capstone Project (Weeks 21–24)
@@ -121,6 +134,32 @@ A complete roadmap to train a college pass-out student from beginner to full-sta
   - Auth, Cart, Checkout, Stripe
   - Admin Dashboard
   - UI polished with Figma reference
+  - Microservices: Auth, Product, Order as separate services
+  - Micro Frontends: Customer and Admin as separate UIs
+
+---
+
+### ✅ GoLang Bonus Track (Weeks 25–28)
+
+#### Goals:
+- Learn Golang for scalable backend development
+- Understand concurrency and performance
+
+#### Topics:
+- Syntax, Structs, Interfaces
+- Goroutines, Channels
+- Go Modules, Dependency management
+- REST API with net/http and Gin
+- MongoDB/PostgreSQL integration
+- Testing and Benchmarking
+
+#### GoLang Project:
+- **Inventory Management System**
+  - Golang REST API
+  - Auth, CRUD for Products & Warehouses
+  - PostgreSQL with GORM
+  - Swagger API Docs
+  - Dockerized Deployment
 
 ---
 
@@ -137,6 +176,9 @@ A complete roadmap to train a college pass-out student from beginner to full-sta
 | Testing | Jest Docs |
 | Git | GitHub Learning Lab |
 | UI/UX | Figma, Refactoring UI |
+| GoLang | gobyexample.com, go.dev/learn |
+| Microservices | microservices.io, Martin Fowler blog |
+| Micro Frontends | webpack.js.org, module-federation.io |
 
 ---
 
@@ -146,7 +188,8 @@ A complete roadmap to train a college pass-out student from beginner to full-sta
 - ✅ Weekly code reviews
 - ✅ Pair programming
 - ✅ Mock interviews (after week 12)
+- ✅ Capstone presentation and code walkthrough
 
 ---
 
-> This README can be used as the root documentation in your GitHub repo. You can create folders like `/week1`, `/projects`, `/final-project`, `/nextjs`, `/nestjs`, and `/ui-ux` to organize the codebase and milestones.
+> This README can be used as the root documentation in your GitHub repo. You can create folders like `/week1`, `/projects`, `/final-project`, `/nextjs`, `/nestjs`, `/ui-ux`, `/microservices`, `/microfrontend`, `/golang` to organize the codebase and milestones.
